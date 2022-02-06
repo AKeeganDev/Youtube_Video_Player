@@ -30,7 +30,9 @@ body {
     height: 56px;
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 
 .center-search-bar-container {
@@ -91,7 +93,8 @@ body {
 
   .channel-name,
   .video-detail,
-  .video-details {
+  .video-details,
+  .subscribers {
       display: flex;
       flex-wrap: wrap;
     font-size: 14px;
@@ -143,4 +146,56 @@ body {
 
   .interactive-buttons {
       display: flex;
+  }
+
+  .about {
+      padding: 10px 0px;
+      border-bottom: 1px solid thistle;
+  }
+
+  .upload-profile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .upload-profile-about{
+    margin-left: 10px;
+  }
+  .profile-basics{
+      display: flex;
+      align-items: center;
+  }
+
+  .profile-basics .dot{
+      background-color: green;
+      height: 50px;
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .initial{
+      color: white;
+      font-size: 28px;
+  }
+
+  .username {
+      font-weight: bold;
+      margin-bottom: 4px;
+  }
+
+  .subscribe {
+      background-color: red;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 10px;
+  }
+
+  .about-text {
+      width: 615px;
+      height: 116px;
+      margin-left: 61px;
   }
